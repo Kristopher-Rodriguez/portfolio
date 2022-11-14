@@ -4,7 +4,7 @@
 
 html,
 body {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
 @layer base {
@@ -38,7 +38,7 @@ body {
   }
 }
 
-.typewriter p {
+/* .typewriter p {
   font-family: monospace;
   letter-spacing: .17em;
   margin: 0 auto;
@@ -65,4 +65,4 @@ body {
   50% {
     border-color: pink;
   }
-}
+} */
